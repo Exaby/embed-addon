@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Embed",
+    "version": "1.0.1",
+    "description": "Adds 'Embed with spco' button to the image and video context menu.",
+    "author": "Space Core",
+    "homepage_url": "https://spco.xyz",
+    "permissions": ["contextMenus", "notifications", "clipboardWrite"],
+      "background": {
+        "scripts": ["background.js"]
+      }
+  }
